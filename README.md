@@ -48,70 +48,67 @@ MyName = "kiki" # 파스칼
 _my_name = "korea"  
 MYNAME = "God is love"  
 my2name = "12345"  
-# 2myname = '9876'  
-# my-name = "michle"  
-# my name = "kiki"  
-myStr = '123' # str  
-myNum = 123 # int  
-print(myStr, myNum)  
-print(type(myStr))  
-print(type(myNum))  
+myStr = '123' # str   
+myNum = 123 # int    
+print(myStr, myNum)    
+print(type(myStr))    
+print(type(myNum))    
+'''    
+
+#### 여러개 변수 할당  
+
+'''  
+x,y,z = "포도","딸기","수박"  
+print(x)  
+print(y)  
+print(z)  
 '''  
 
-#### 여러개 변수 할당
+'''  
+a = b = c = "오렌지"  
+print(a)  
+print(b)  
+print(c)  
+'''  
 
-'''
-x,y,z = "포도","딸기","수박"
-print(x)
-print(y)
-print(z)
-'''
+'''  
+fruits = ["포도","딸기","수박"]  
+x,y,z = fruits  
+print(x)  
+print(y)  
+print(z)  
+'''  
 
-'''
-a = b = c = "오렌지"
-print(a)
-print(b)
-print(c)
-'''
+'''  
+x = "Life"  
+y = "is"  
+z = "beautiful"  
+print(x, y, z)  
+print(x+y+z)  
+'''  
 
-'''
-fruits = ["포도","딸기","수박"]
-x,y,z = fruits
-print(x)
-print(y)
-print(z)
-'''
+'''  
+a = 1  
+b = 2  
+c = 3  
+print(a, b, c)  
+print(a+b+c)  
+'''  
 
-'''
-x = "Life"
-y = "is"
-z = "beautiful"
-print(x, y, z)
-print(x+y+z)
-'''
+#### 데이터 유형  
++ 텍스트    
++ 숫자    
++ 불(bool)  
 
-'''
-a = 1
-b = 2
-c = 3
-print(a, b, c)
-print(a+b+c)
-'''
-
-#### 데이터 유형
-+ 텍스트  
-+ 숫자  
-+ 불(bool)
-
-'''
-a = 100
-b = 200
-sum = a + b
-Sum = b - a
-SUm = a * b
-SUM = b / a
-print(a, '+', b, '=', sum)
-print(b, '-', a, '=', Sum)
-print(a, '*', b, '=', SUm)
-print(b, '/', a, '=', SUM)
-'''
+'''  
+a = 100  
+b = 200  
+sum = a + b  
+Sum = b - a  
+SUm = a * b  
+SUM = b / a  
+print(a, '+', b, '=', sum)  
+print(b, '-', a, '=', Sum)  
+print(a, '*', b, '=', SUm)  
+print(b, '/', a, '=', SUM)  
+'''  
