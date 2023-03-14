@@ -13,14 +13,12 @@ Python Learning Repository
 * 대소문자를 구분(sum, Sum, SUM)  
 * 영문자, 숫자, 밑줄(A-z, 0-9, _)  
 * 파이썬 키워드는 사용 불가
-
-'''  
+ 
 a = 10  
 b = 20  
 c = a + b  
 d = b - a  
-print(c, d)  
-'''  
+print(c, d)    
 
 '''  
 a = 10    
