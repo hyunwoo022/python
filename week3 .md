@@ -156,11 +156,11 @@ print("생성된 리스트", number)
 
 ---
 for i in range(0,3,1): # 시작값,끝값+1,증가값  
-  print("안녕하세요~")
+  print("안녕하세요~") # 반복 
 ---
 
 ---
-for i in range(0,3,1):
-  print("안녕하세요~")
-print("반갑습니다^^*")
+for i in range(0,3,1):  
+  print("안녕하세요~")  
+print("반갑습니다^^*")  
 ---
