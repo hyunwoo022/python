@@ -166,16 +166,16 @@ print("반갑습니다^^*")
 ---
 
 ---
-for i in range(0,3,1):
-  print("%d 안녕하세요~" % i)
-  #print(i)
-print("반갑습니다^^*")
+for i in range(0,3,1):  
+  print("%d 안녕하세요~" % i)  
+  #print(i)  
+print("반갑습니다^^*")   
 ---
 
 ---
-for i in range(1,9,1):
-  print("%d " % i, end="")
-print("\n")
-for i in range(1,9,1):
-  print("%d" % i, end= " ")
+for i in range(1,9,1):  
+  print("%d " % i, end="")  
+print("\n")  
+for i in range(1,9,1):  
+  print("%d" % i, end= " ")  
 ---
