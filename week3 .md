@@ -123,3 +123,44 @@ if(a > 50) :
 else :  
   print("a < 50")  
 ---
+
+---
+frult = ['사과' , '배' , '감' , '포도']
+print(frult)
+---
+
+---
+frult = ['사과' , '배' , '감' , '포도']
+frult.append('딸기')
+print(frult)
+---
+
+---
+frult = ['사과' , '배' , '감' , '포도']
+frult.append('딸기')
+if '딸기' in frult :
+  print("딸기가 있습니다")
+print(frult)
+---
+
+---
+import random
+
+number = []
+for num in range(0,6) :
+  number.append(random.randrange(1,46))
+print("생성된 리스트", number)
+---
+
+### 반복문
+
+---
+for i in range(0,3,1): # 시작값,끝값+1,증가값  
+  print("안녕하세요~")
+---
+
+---
+for i in range(0,3,1):
+  print("안녕하세요~")
+print("반갑습니다^^*")
+---
