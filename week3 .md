@@ -1,9 +1,9 @@
 # 2. print() 서식 출력
 
 ---
-print("%d" % 123)    
+print("%d" % 123)  
 print("%5d" % 123)  
-print("%05d" % 123)   
+print("%05d" % 123)  
   
 print("%f" % 123.45)    
 print("%7.1f" % 123.45)  
