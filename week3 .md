@@ -179,3 +179,38 @@ print("\n")
 for i in range(1,9,1):  
   print("%d" % i, end= " ")  
 ---
+
+---
+sum=0
+for i in range(1,11,1):
+  sum = sum + i
+print("1~10까지 합계 : %d" % sum)
+---
+
+#### Quiz3 : 숫자 입력을 받아 1부터 입력된 숫자까지의 합을 for문을 이용하여여 출력하시오.  
+
+---
+sum,num=0,0
+num = int(input("숫자입력 : "))
+for i in range(1,num+1,1):
+  sum = sum + i
+print("1~n까지 합계 : %d" % sum)
+---
+
+#### 중첩 for문  
+
+---
+i,j,k=0,0,0
+k = int(input("구구단 단수 입력 : "))
+for i in range(1,10,1):
+  print("%d x %d = %2d" % (k,i,k*i))
+print("")
+---
+
+---
+i,j=0,0
+for i in range(1,10,1):
+  for j in range(2,10,1):
+    print("%d x %d = %2d" % (j,i,i*j), end='\t')
+  print("")
+---
