@@ -101,10 +101,10 @@ for i in range(2,10,1):
 ...
 
 ...  
-i = 0
-while i<3:
-  print("%d : while문" %i)
-  i = i+1
+i = 0  
+while i<3:  
+  print("%d : while문" %i)  
+  i = i+1  
 ...
 
 # Q 1부터 10까지 합계를 while, for문으로
