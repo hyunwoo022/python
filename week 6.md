@@ -139,7 +139,7 @@ for i in range(1,100):
 ...
 
 # break  
-...
+...  
 for i in range(1,100):  
   print("for문 %d번 실행" %i)  
   break  
@@ -150,7 +150,7 @@ print("break문 빠짐")
 hap = 0  
 a,b = 0,0  
 while True:  
-  a = int(input("덧셈 첫번째 수 입력: ")) 
+  a = int(input("덧셈 첫번째 수 입력: "))  
   if a==0:  
     break  
   b = int(input("덧셈 두번째 수 입력: "))  
