@@ -252,14 +252,14 @@ def calc(v1,v2,op):
     result = v1 / v2  
   return result  
   
-rst = 0  
+res = 0  
 var1,var2,opr = 0,0,""  
   
 opr = input("(+,-,*,/) 입력: ")  
 var1 = int(input("1번째 수 입력: "))  
 var2 = int(input("2번째 수 입력: "))  
-rst = calc(var1,var2,opr)  
-print("계산기 %d %s %d = %d" %(var1,opr,var2,rst))  
+res = calc(var1,var2,opr)  
+print("계산기 %d %s %d = %d" %(var1,opr,var2,res))  
 ...
 
 # 전역 변수와 지역변수  
