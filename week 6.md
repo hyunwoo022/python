@@ -2,7 +2,7 @@
 ## 중첩 if문  
 
 ...  
-score = int(input("점수를 압력해 주세요 : "))  
+score = int(input("점수를 입력해 주세요 : "))  
 if (score > 100):  
   print("0~100까지의 숫자로 입력하세요.")  
 else:  
