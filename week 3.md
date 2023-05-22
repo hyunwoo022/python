@@ -185,15 +185,15 @@ for i in range(1,11,1):
 print("1~10까지 합계 : %d" % sum)
 ...
 
-#### Quiz3 : 숫자 입력을 받아 1부터 입력된 숫자까지의 합을 for문을 이용하여여 출력하시오.  
+#### Quiz3 : 숫자 입력을 받아 1부터 입력된 숫자까지의 합을 for문을 이용하여 출력하시오.  
 
 ...  
-sum,num=0,0
-num = int(input("숫자입력 : "))
-for i in range(1,num+1,1):
-  sum = sum + i
-print("1~n까지 합계 : %d" % sum)
-...
+sum,num=0,0  
+num = int(input("숫자입력 : "))  
+for i in range(1,num+1,1):  
+  sum = sum + i  
+print("1~n까지 합계 : %d" % sum)  
+...  
 
 #### 중첩 for문  
 
